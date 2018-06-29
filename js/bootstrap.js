@@ -216,7 +216,7 @@
          */
         var NAME = 'alert';
         var VERSION = '4.1.1';
-        var DATA_KEY = 'bs.alert';
+        var DATA_KEY = 'bootstrapdictionary.alert';
         var EVENT_KEY = "." + DATA_KEY;
         var DATA_API_KEY = '.data-api';
         var JQUERY_NO_CONFLICT = $$$1.fn[NAME];
@@ -391,7 +391,7 @@
          */
         var NAME = 'button';
         var VERSION = '4.1.1';
-        var DATA_KEY = 'bs.button';
+        var DATA_KEY = 'bootstrapdictionary.button';
         var EVENT_KEY = "." + DATA_KEY;
         var DATA_API_KEY = '.data-api';
         var JQUERY_NO_CONFLICT = $$$1.fn[NAME];
@@ -555,7 +555,7 @@
          */
         var NAME = 'carousel';
         var VERSION = '4.1.1';
-        var DATA_KEY = 'bs.carousel';
+        var DATA_KEY = 'bootstrapdictionary.carousel';
         var EVENT_KEY = "." + DATA_KEY;
         var DATA_API_KEY = '.data-api';
         var JQUERY_NO_CONFLICT = $$$1.fn[NAME];
@@ -1056,7 +1056,7 @@
          */
         var NAME = 'collapse';
         var VERSION = '4.1.1';
-        var DATA_KEY = 'bs.collapse';
+        var DATA_KEY = 'bootstrapdictionary.collapse';
         var EVENT_KEY = "." + DATA_KEY;
         var DATA_API_KEY = '.data-api';
         var JQUERY_NO_CONFLICT = $$$1.fn[NAME];
@@ -1416,7 +1416,7 @@
          */
         var NAME = 'dropdown';
         var VERSION = '4.1.1';
-        var DATA_KEY = 'bs.dropdown';
+        var DATA_KEY = 'bootstrapdictionary.dropdown';
         var EVENT_KEY = "." + DATA_KEY;
         var DATA_API_KEY = '.data-api';
         var JQUERY_NO_CONFLICT = $$$1.fn[NAME];
@@ -1898,7 +1898,7 @@
          */
         var NAME = 'modal';
         var VERSION = '4.1.1';
-        var DATA_KEY = 'bs.modal';
+        var DATA_KEY = 'bootstrapdictionary.modal';
         var EVENT_KEY = "." + DATA_KEY;
         var DATA_API_KEY = '.data-api';
         var JQUERY_NO_CONFLICT = $$$1.fn[NAME];
@@ -2476,10 +2476,10 @@
          */
         var NAME = 'tooltip';
         var VERSION = '4.1.1';
-        var DATA_KEY = 'bs.tooltip';
+        var DATA_KEY = 'bootstrapdictionary.tooltip';
         var EVENT_KEY = "." + DATA_KEY;
         var JQUERY_NO_CONFLICT = $$$1.fn[NAME];
-        var CLASS_PREFIX = 'bs-tooltip';
+        var CLASS_PREFIX = 'bootstrapdictionary-tooltip';
         var BSCLS_PREFIX_REGEX = new RegExp("(^|\\s)" + CLASS_PREFIX + "\\S+", 'g');
         var DefaultType = {
             animation: 'boolean',
@@ -2632,7 +2632,7 @@
                     clearTimeout(this._timeout);
                     $$$1.removeData(this.element, this.constructor.DATA_KEY);
                     $$$1(this.element).off(this.constructor.EVENT_KEY);
-                    $$$1(this.element).closest('.modal').off('hide.bs.modal');
+                    $$$1(this.element).closest('.modal').off('hide.bootstrapdictionary.modal');
 
                     if (this.tip) {
                         $$$1(this.tip).remove();
@@ -2880,7 +2880,7 @@
                             });
                         }
 
-                        $$$1(_this3.element).closest('.modal').on('hide.bs.modal', function () {
+                        $$$1(_this3.element).closest('.modal').on('hide.bootstrapdictionary.modal', function () {
                             return _this3.hide();
                         });
                     });
@@ -3143,10 +3143,10 @@
          */
         var NAME = 'popover';
         var VERSION = '4.1.1';
-        var DATA_KEY = 'bs.popover';
+        var DATA_KEY = 'bootstrapdictionary.popover';
         var EVENT_KEY = "." + DATA_KEY;
         var JQUERY_NO_CONFLICT = $$$1.fn[NAME];
-        var CLASS_PREFIX = 'bs-popover';
+        var CLASS_PREFIX = 'bootstrapdictionary-popover';
         var BSCLS_PREFIX_REGEX = new RegExp("(^|\\s)" + CLASS_PREFIX + "\\S+", 'g');
 
         var Default = _objectSpread({}, Tooltip.Default, {
@@ -3340,7 +3340,7 @@
          */
         var NAME = 'scrollspy';
         var VERSION = '4.1.1';
-        var DATA_KEY = 'bs.scrollspy';
+        var DATA_KEY = 'bootstrapdictionary.scrollspy';
         var EVENT_KEY = "." + DATA_KEY;
         var DATA_API_KEY = '.data-api';
         var JQUERY_NO_CONFLICT = $$$1.fn[NAME];
@@ -3652,7 +3652,7 @@
          */
         var NAME = 'tab';
         var VERSION = '4.1.1';
-        var DATA_KEY = 'bs.tab';
+        var DATA_KEY = 'bootstrapdictionary.tab';
         var EVENT_KEY = "." + DATA_KEY;
         var DATA_API_KEY = '.data-api';
         var JQUERY_NO_CONFLICT = $$$1.fn[NAME];
