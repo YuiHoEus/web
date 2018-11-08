@@ -1,10 +1,10 @@
 $(document).ready(function () {
     $(window).scroll(function () {
         if($('html').scrollTop()>200){
-            $('.btn').fadeIn(1000)
+            $('.btn').fadeIn(400)
         }
         else{
-            $('.btn').fadeOut(2000)
+            $('.btn').fadeOut(400)
         }
     })
     $('.btn').click(function () {
